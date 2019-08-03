@@ -63,7 +63,7 @@
     </div>
 </div>
 <p class="copyright">© 2019-2020 All Rights Reserved | Design by 姚贤杰</p>
-<script src='js/jquery.min.js'></script>
+<script src='dependents/jquery/jquery.min.js'></script>
 <script src="js/index.js"></script>
 <script type="text/javascript">
 </script>
