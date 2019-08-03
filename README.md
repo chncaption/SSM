@@ -8,11 +8,10 @@
 
 ## 截图
 
-![<https://github.com/bodhisatan/SSM/blob/master/shot/1.png>]
+![](shot/1.png)
 
-![<https://github.com/bodhisatan/SSM/blob/master/shot/2.png>]
+![](shot/2.png)
 
-![<https://github.com/bodhisatan/SSM/blob/master/shot/3.png>]
+![](shot/3.png)
 
-![<https://github.com/bodhisatan/SSM/blob/master/shot/4.png>]
-
+![](shot/4.png)
