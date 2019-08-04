@@ -129,7 +129,7 @@ public class BusinessInfoController {
     }
 
     @ResponseBody
-    @RequestMapping(value = "deleteInfo", method = RequestMethod.POST)
+    @RequestMapping(value = "deleteInfo/{type}", method = RequestMethod.POST)
     public BaseResult deleteInfo(@PathVariable String type, HttpServletRequest request) {
         boolean success = true;
         String msg = null;
