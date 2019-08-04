@@ -127,7 +127,7 @@ $("#btn_add_update_submit").off().on('click', function () {
     }
 
     $.ajax({
-        url: '../addAndUpdateInfo/' + type,
+        url: 'addAndUpdateInfo/' + type,
         method: 'post',
         contentType: "application/x-www-form-urlencoded",
         data: {
@@ -208,7 +208,7 @@ function editData(row) {
 function delData(id, type) {
     layer.confirm('确定要删除用户编号为' + id + '数据?', {icon: 3, title: '提示'}, function () {
         $.ajax({
-            url: '../deleteInfo/' + type,
+            url: 'deleteInfo/' + type,
             method: 'post',
             contentType: "application/x-www-form-urlencoded",
             //阻止深度序列化，向后台传送数组
@@ -230,7 +230,7 @@ function delData(id, type) {
 function sendMassage(tel) {
     layer.confirm('确定要发送' + tel.length + '条短信？（约0.05元/条计费）', {icon: 3, title: '提示'}, function () {
         $.ajax({
-            url: '../sendMessage',
+            url: 'sendMessage',
             method: 'post',
             contentType: "application/x-www-form-urlencoded",
             //阻止深度序列化，向后台传送数组
