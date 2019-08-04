@@ -15,34 +15,34 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" type="image/x-icon" href="../icon/favicon_64.ico"/>
-    <link rel="shortcut icon" type="image/x-icon" href="../icon/favicon_64.ico"/>
+    <link rel="icon" type="image/x-icon" href="${pageContext.request.contextPath}/icon/favicon_64.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="${pageContext.request.contextPath}/icon/favicon_64.ico"/>
     <title>${page_title}</title>
     <!-- jQuery -->
-    <script type="text/javascript" src="../dependents/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/dependents/jquery/jquery.min.js"></script>
     <!-- bootstrap -->
-    <script type="text/javascript" src="../dependents/bootstrap/js/bootstrap.js"></script>
-    <link type="text/css" rel="stylesheet" href="../dependents/bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="${pageContext.request.contextPath}/dependents/bootstrap/js/bootstrap.js"></script>
+    <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/dependents/bootstrap/css/bootstrap.min.css">
     <!-- bootstrap-table -->
-    <script type="text/javascript" src="../dependents/bootstrap-table/1.9.1/bootstrap-table.js"></script>
-    <script type="text/javascript" src="../dependents/bootstrap-table/1.9.1/bootstrap-table-locale-all.js"></script>
-    <link rel="stylesheet" type="text/css" href="../dependents/bootstrap-table/1.9.1/bootstrap-table.css"/>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/dependents/bootstrap-table/1.9.1/bootstrap-table.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/dependents/bootstrap-table/1.9.1/bootstrap-table-locale-all.js"></script>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/dependents/bootstrap-table/1.9.1/bootstrap-table.css"/>
     <!--[if lt IE 9]>
-    <script src="../dependents/bootstrap/plugins/ie/html5shiv.js"></script>
-    <script src="../dependents/bootstrap/plugins/ie/respond.js"></script>
+    <script src="${pageContext.request.contextPath}/dependents/bootstrap/plugins/ie/html5shiv.js"></script>
+    <script src="${pageContext.request.contextPath}/dependents/bootstrap/plugins/ie/respond.js"></script>
     <![endif]-->
     <!--[if lt IE 8]>
-    <script src="../dependents/bootstrap/plugins/ie/json2.js"></script>
+    <script src="${pageContext.request.contextPath}/dependents/bootstrap/plugins/ie/json2.js"></script>
     <![endif]-->
     <!-- font-awesome -->
-    <link rel="stylesheet" type="text/css" href="../dependents/fontAwesome/css/font-awesome.min.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/dependents/fontAwesome/css/font-awesome.min.css" media="all"/>
     <!-- layer -->
-    <script type="text/javascript" src="../dependents/layer/layer.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/dependents/layer/layer.js"></script>
     <!-- laydate -->
-    <link rel="stylesheet" type="text/css" href="../dependents/laydate/need/laydate.css"/>
-    <script type="text/javascript" src="../dependents/laydate/laydate.js"></script>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/dependents/laydate/need/laydate.css"/>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/dependents/laydate/laydate.js"></script>
     <!-- base -->
-    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/base.css">
 </head>
 <body>
 
@@ -201,8 +201,8 @@
         </div>
     </div>
 </div>
-<script type="text/javascript" src="../js/laydate.js"></script>
-<script type="text/javascript" src="../js/table.js"></script>
-<script type="text/javascript" src="../js/table_crud.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/laydate.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/table.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/table_crud.js"></script>
 </body>
 </html>
