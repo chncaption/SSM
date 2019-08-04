@@ -27,7 +27,7 @@ function tableInit() {
 
     $table.bootstrapTable({
         //请求地址
-        url: '../showInfo',
+        url: 'showInfo',
         //请求方式
         method: 'post',
         //请求内容类型
